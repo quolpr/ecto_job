@@ -63,7 +63,7 @@ defmodule EctoJob.Mixfile do
       {:poison, "~> 3.1"},
       {:gen_stage, "~> 0.13"},
       {:credo, "~> 0.8", only: :dev, runtime: false},
-      {:dialyxir, "~> 0.5", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.1", only: :dev, runtime: false},
       {:ex_doc, "~> 0.12", only: :dev, runtime: false},
       {:inch_ex, ">= 0.4.0", only: :dev, runtime: false}
     ]
